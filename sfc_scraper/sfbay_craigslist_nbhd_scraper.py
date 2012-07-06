@@ -46,9 +46,9 @@ for neighborhood in neighborhood_numbers:
     nindex = nindex + 1
     neighborhood_name = str(locations[index]).title()
     print "Neighborhood: " + neighborhood_name + " (" + str(neighborhood) + ") " + " - " + str(nindex) + " of " + str(len(neighborhood_numbers))
-    if neighborhood_name != "Berkeley"  and neighborhood_name !="Alameda":
-    	index = index + 1
-        continue
+#    if neighborhood_name != "Berkeley"  and neighborhood_name !="Alameda":
+#    	index = index + 1
+#        continue
     cur_url = base_url + "/search/" + search_type + "/" + location + "?query=&catAbbreviation=" + search_type + "&minAsk=" + str(min_price) + "&maxAsk=" + str(max_price) + "&bedrooms=&nh=" + str(neighborhood) + "&hasPic=1"
     while True:
         try:
