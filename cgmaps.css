@@ -1,0 +1,37 @@
+font-size: 14px;
+
+#listings table {
+  width: 100%;
+  margin:0;
+  background:#F9F9F9;
+  border:0px #AAA solid;
+  border-collapse:collapse;
+}
+
+#listings table tr {
+  width: 100%;
+}
+
+#listings table td {
+  width: 100%;
+  border:1px #AAA solid;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+}
+
+#search table {
+  margin:0;
+  background:#FFFFFF;
+  border:0px;
+  border-collapse:collapse;
+}
+
+#search table td {
+  padding-left: 5px;
+  padding-right: 15px;
+  border:0px;
+  font-size: 14px;
+}

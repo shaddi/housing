@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta name="author" content="Shaddi Hasan and Kurt Miller" />
+  <meta name="keywords" content="Berkeley, Stanford, San Francisco, Craigslist, Google Maps, Mashup, Housing search" />
+  <meta name="description" content="Kurt Miller's Craigslist-Google Maps Mashup" />
+  <meta name="robots" content="all" />
+
+  <title>Craigslist-Google Maps Housing Search</title>
+  <style type="text/css" media="all">
+      @import "../style.css";
+  </style>
+</head>
+
+<body>
+
+<div id="container">
+  <div id="title">
+    <h1>Craigslist-Google Maps Housing Search</h1><h2> </h2>
+  </div>
+
+  <div id="main_text">
+    <br />
+    <p class = "description">
+      Looking to rent a house or apartment near Berkeley or Stanford
+      through Craigslist and want to easily visualize where all the
+      homes are?
+    </p>
+    
+    <p class = "description">
+      Try my housing mashup for:
+      <ul>
+        <li><a href="http://www.cs.berkeley.edu/~tadayuki/housing/sfbay-eby.html">Berkeley</a></li>
+        <li><a href="http://www.cs.berkeley.edu/~tadayuki/housing/sfbay-sfc.html">San Francisco</a></li>
+        <li><a href="http://www.cs.berkeley.edu/~tadayuki/housing/sfbay-pen.html">Stanford</a></li>
+      </ul>
+    </p>
+
+    <p class="desciption">
+      <h3>Instructions:</h3>
+    </p>
+
+    <p class="desciption">
+      When the page first loads, you'll see a bunch of blue markers
+      and a red marker.  The blue markers all correspond to houses
+      (with lighter shades of blue corresponding to cheaper
+      houses). The red marker is used to narrow down the houses that
+      will be displayed. The map will only display houses that are
+      within X miles of the red marker where X is a setting you can
+      change at the top of the page.  Drag the red marker around to
+      move it.  The circle indicates the search area for houses.  You can also filter the houses to display by price
+      "X-Y" where X and Y are dollar amounts, and by the number of
+      bedrooms "1+", "2", "2 3 4", etc.  By default, it only searches 
+      homes that do NOT allow pets, but you can uncheck the no pets box 
+      to search for only homes that DO allow pets.  Note that if you relax the
+      filters to display many homes at once, your computer will slow
+      down as it loads all the homes.
+    </p>
+
+    <p class = "description">
+      Click on a blue marker to pop open the description corresponding
+      to that home.  You can click on the "Craigslist ad" link in the
+      description to see the original Craigslist ad.  This will also
+      highlight the description in the table on the right.  Similarly,
+      if you find a description you like on the right, click on it to
+      locate that unit on the map and open its description.
+    </p>
+
+    <p class = "description">
+      The listings should update themselves at least once a day.  You
+      can find out the last time they were updated at the top right of
+      each page.  If you are actively using it to search for a house
+      and more time has gone by, let me know.  No promises that I'll
+      fix it soon, but I will try if I have the time. Also, it only
+      scrapes listings that have pictures since I do not bother with
+      housing ads that do not have any pictures.
+    </p>
+
+    <p class = "description">
+      If you use this to find a place, drop me a line to let me know!
+      My email address is on my personal page.
+    </p>
+    
+    <br />
+    <p class = "description">
+      This was originally developed by Kurt Miller; he has generously allowed
+      me to continue hosting this useful script here. Below is his original
+      disclaimer, which still applies today.
+    </p>
+
+    <p class = "description">
+      "<b>Disclaimer:</b> I developed this for my own personal use and found
+      it to be useful, so I am making it available to others.
+      However, I'm not actively supporting it.  It is JavaScript
+      heavy, so may be slower or not even work with particular
+      browsers.  <i>In particular, I have not tested it at all with
+      Internet Explorer.</i>  Sorry if it does not work for you.  This was
+      heavily influenced by an earlier version by Percy Liang that I
+      had used that is no longer supported due to Google Maps API
+      changes."
+    </p>
+
+  </div>
+
+  <br />
+  <div id="footer">
+  </div>
+
+  <div id="links">
+    <a href="../">My personal page</a>
+  </div>
+</div>
+
+</body>
+</html>
+
