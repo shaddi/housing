@@ -11,8 +11,7 @@ from datetime import datetime
 import os 
 
 #key = 'ABQIAAAA-NgCz43Ca2477hZRZfa_FRSiXr9Ixf3duqcZ99mp_W37smOlHBT-xPJ02WT_Q7K67b_JSKamB1Lc3w&'
-#key = 'ABQIAAAAnfs7bKE82qgb3Zc2YyS-oBT2yXp_ZAY8_ufC3CFXhHIE1NvwkxSySz_REpPq-4WZA27OwgbtyR3VcA&'
-key = 'AIzaSyCPpWmXB4nANPrj_U0JXylM_TtPZPkjYc4'
+key = 'ABQIAAAAnfs7bKE82qgb3Zc2YyS-oBT2yXp_ZAY8_ufC3CFXhHIE1NvwkxSySz_REpPq-4WZA27OwgbtyR3VcA&'
 
 # Set up file names
 base_url = "http://" + region + ".craigslist.org"
